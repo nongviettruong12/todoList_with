@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  text-align: center;
+}
+.new-todo-area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-new-todo{
+  margin-right: 10px;
+  min-width: 450px;
+}
+
+.add-new-todo-button{
+  width: 100px;
+  height: 40px;
+  background-color: #17bf63;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 15pt;
+  font-weight: bold;
+  cursor: pointer;
+}
+.todo-list{
+  align-content: center;
+  justify-content: center;
+  display: grid;
+  margin-top: 30px;
+}
+.todo-item{
+  display: flex;
+  height: 50px;
+  min-width: 600px;
+  border: 1px;
+  border-color: darkgray;
+  border-style: solid;
+  align-items: center;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 30px;
+  border-bottom: 0;
+}
+.todo-checkbox{
+  margin-right: 40px;
+}
+.item-delete{
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+  color: red;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.list-top-item{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.list-bottom-item{
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: darkgray;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.filters{
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: -60px;
+}
+.filter-checkbox{
+  margin-right: 10px;
+  margin-left: 60px;
+}
+.filter-item{
+  align-items: center;
+  display: flex;
+}
+
